@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="auto">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d18" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Glowing Pill Gradient -->
+    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(56, 189, 248, 0.15)" />
+      <stop offset="100%" stop-color="rgba(192, 132, 252, 0.15)" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .cyber-grid {
+      stroke: rgba(148, 163, 184, 0.08);
+      stroke-width: 1;
+    }
+    .pulse-line {
+      stroke: url(#primaryGrad);
+      stroke-width: 1.5;
+      stroke-dasharray: 8 16;
+      animation: dashMove 12s linear infinite;
+    }
+    .circuit-node {
+      fill: #38bdf8;
+      animation: pulseNode 3s ease-in-out infinite alternate;
+    }
+    .circuit-node-alt {
+      fill: #c084fc;
+      animation: pulseNode 4s ease-in-out infinite alternate-reverse;
+    }
+    .ambient-glow-1 {
+      fill: #38bdf8;
+      filter: blur(80px);
+      opacity: 0.18;
+      animation: floatOrb 8s ease-in-out infinite alternate;
+    }
+    .ambient-glow-2 {
+      fill: #a855f7;
+      filter: blur(90px);
+      opacity: 0.16;
+      animation: floatOrb 10s ease-in-out infinite alternate-reverse;
+    }
+    .scan-beam {
+      animation: scanSweep 7s ease-in-out infinite;
+    }
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 52px;
+      letter-spacing: -0.5px;
+      fill: #ffffff;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      fill: #94a3b8;
+    }
+    .pill-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+      fill: #e0e7ff;
+    }
+    @keyframes dashMove {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: -200; }
+    }
+    @keyframes pulseNode {
+      0% { r: 3; opacity: 0.4; }
+      100% { r: 5; opacity: 0.95; filter: drop-shadow(0 0 6px #38bdf8); }
+    }
+    @keyframes floatOrb {
+      0% { transform: translate(0, 0); }
+      100% { transform: translate(40px, -25px); }
+    }
+    @keyframes scanSweep {
+      0% { opacity: 0.1; transform: translateX(-100px); }
+      50% { opacity: 0.4; transform: translateX(600px); }
+      100% { opacity: 0.1; transform: translateX(1300px); }
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)" />
+
+  <!-- Animated Ambient Light Orbs (Background layer) -->
+  <circle cx="200" cy="80" r="140" class="ambient-glow-1" />
+  <circle cx="1020" cy="270" r="160" class="ambient-glow-2" />
+
+  <!-- Structural Grid -->
+  <g class="cyber-grid">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="120" y1="0" x2="120" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1080" y1="0" x2="1080" y2="360" />
+  </g>
+
+  <!-- Circuit Network Flow Lines (Underneath foreground content) -->
+  <path d="M 60 180 L 220 180 L 300 240 L 480 240" fill="none" class="pulse-line" />
+  <path d="M 720 120 L 900 120 L 980 60 L 1140 60" fill="none" class="pulse-line" />
+  <path d="M 120 300 L 260 300 L 320 240" fill="none" class="pulse-line" />
+  <path d="M 880 300 L 1020 300 L 1080 240 L 1160 240" fill="none" class="pulse-line" />
+
+  <!-- Dynamic Nodes -->
+  <circle cx="220" cy="180" r="4" class="circuit-node" />
+  <circle cx="300" cy="240" r="4" class="circuit-node-alt" />
+  <circle cx="480" cy="240" r="4" class="circuit-node" />
+  <circle cx="720" cy="120" r="4" class="circuit-node-alt" />
+  <circle cx="900" cy="120" r="4" class="circuit-node" />
+  <circle cx="980" cy="60" r="4" class="circuit-node-alt" />
+
+  <!-- Animated Scanning Beam in Background -->
+  <rect x="0" y="0" width="80" height="360" fill="url(#primaryGrad)" opacity="0.04" class="scan-beam" />
+
+  <!-- Border Frame -->
+  <rect x="1.5" y="1.5" width="1197" height="357" rx="16" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+  <!-- Bottom Gradient Highlight Line -->
+  <line x1="100" y1="358" x2="1100" y2="358" stroke="url(#primaryGrad)" stroke-width="2.5" stroke-linecap="round" filter="url(#subtleGlow)" />
+
+  <!-- FOREGROUND CONTENT: High Contrast, Protected Layer -->
+
+  <!-- Top Pill / Status Tag -->
+  <g transform="translate(60, 48)">
+    <rect width="265" height="30" rx="15" fill="url(#pillGrad)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="1" />
+    <circle cx="16" cy="15" r="4" fill="#38bdf8" filter="url(#subtleGlow)">
+      <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="28" y="20" class="pill-text" fill="#38bdf8">REMOTE AGENT RUNTIMES</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="60" y="142" class="title-text">
+    Awesome <tspan fill="url(#primaryGrad)">Remote Agent</tspan> Execution
+  </text>
+
+  <!-- Subtitle -->
+  <text x="60" y="184" class="subtitle-text">
+    Curated Hub of Cloud Sandboxes, MCP Tool Gateways, SSH Automations &amp; Distributed Runtimes
+  </text>
+
+  <!-- Interactive / Category Tags at Bottom -->
+  <g transform="translate(60, 236)">
+    <!-- Tag 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="180" height="42" rx="8" fill="rgba(30, 41, 59, 0.75)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1" />
+      <text x="18" y="26" class="pill-text">🤖 AI Agent Sandboxes</text>
+    </g>
+
+    <!-- Tag 2 -->
+    <g transform="translate(196, 0)">
+      <rect width="195" height="42" rx="8" fill="rgba(30, 41, 59, 0.75)" stroke="rgba(129, 140, 248, 0.3)" stroke-width="1" />
+      <text x="18" y="26" class="pill-text">⚡ MCP Remote Transports</text>
+    </g>
+
+    <!-- Tag 3 -->
+    <g transform="translate(407, 0)">
+      <rect width="185" height="42" rx="8" fill="rgba(30, 41, 59, 0.75)" stroke="rgba(192, 132, 252, 0.3)" stroke-width="1" />
+      <text x="18" y="26" class="pill-text">🛡️ SSH-Native Execution</text>
+    </g>
+
+    <!-- Tag 4 -->
+    <g transform="translate(608, 0)">
+      <rect width="210" height="42" rx="8" fill="rgba(30, 41, 59, 0.75)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1" />
+      <text x="18" y="26" class="pill-text">🌐 Hybrid Fleet Automation</text>
+    </g>
+  </g>
+</svg>
