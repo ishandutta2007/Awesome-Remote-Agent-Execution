@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Remote-Agent-Execution/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Remote-Agent-Execution?style=flat-square&logo=github" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Remote-Agent-Execution/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Remote-Agent-Execution?style=flat-square&logo=github" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Remote-Agent-Execution/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Remote-Agent-Execution?style=flat-square&logo=github" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Remote-Agent-Execution/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Remote-Agent-Execution/pulls"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
@@ -77,7 +77,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 1. [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) [![GitHub stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=social&color=white)](https://github.com/modelcontextprotocol/servers/stargazers)
+### 1. [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) [![GitHub_Stars](https://img.shields.io/github/stars/modelcontextprotocol/servers?style=social&color=white)](https://github.com/modelcontextprotocol/servers/stargazers)
 - **Repo**: `modelcontextprotocol/servers` | **License**: MIT
 - **Focus**: The official reference repository of Model Context Protocol (MCP) servers maintained by Anthropic and the open-source community.
 - **Capabilities**: Features reference implementations for remote execution, including SSH execution bridges, Docker container runners, filesystem manipulators, and secure command line tool endpoints that allow LLM agents to perform remote actions consistently.
@@ -85,7 +85,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 2. [Daytona](https://github.com/daytonaio/daytona) [![GitHub stars](https://img.shields.io/github/stars/daytonaio/daytona?style=social&color=white)](https://github.com/daytonaio/daytona/stargazers)
+### 2. [Daytona](https://github.com/daytonaio/daytona) [![GitHub_Stars](https://img.shields.io/github/stars/daytonaio/daytona?style=social&color=white)](https://github.com/daytonaio/daytona/stargazers)
 - **Repo**: `daytonaio/daytona` | **License**: Apache-2.0
 - **Focus**: Open-source development environment orchestrator and remote workspace manager.
 - **Capabilities**: Provides automated provisioning and isolation of complete remote development targets with a single command. Enables AI agents to spin up remote sandboxes, clone repositories, execute terminal commands, and maintain persistent workspace state across agent runs.
@@ -93,7 +93,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 3. [Ansible](https://github.com/ansible/ansible) [![GitHub stars](https://img.shields.io/github/stars/ansible/ansible?style=social&color=white)](https://github.com/ansible/ansible/stargazers)
+### 3. [Ansible](https://github.com/ansible/ansible) [![GitHub_Stars](https://img.shields.io/github/stars/ansible/ansible?style=social&color=white)](https://github.com/ansible/ansible/stargazers)
 - **Repo**: `ansible/ansible` | **License**: GPL-3.0
 - **Focus**: The standard in agentless IT automation and remote server orchestration.
 - **Capabilities**: Executes idempotent modules and YAML playbooks across hundreds of remote Linux and Windows nodes via standard OpenSSH and WinRM without installing background agents on target systems.
@@ -101,7 +101,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 4. [Terraform](https://github.com/hashicorp/terraform) [![GitHub stars](https://img.shields.io/github/stars/hashicorp/terraform?style=social&color=white)](https://github.com/hashicorp/terraform/stargazers)
+### 4. [Terraform](https://github.com/hashicorp/terraform) [![GitHub_Stars](https://img.shields.io/github/stars/hashicorp/terraform?style=social&color=white)](https://github.com/hashicorp/terraform/stargazers)
 - **Repo**: `hashicorp/terraform` | **License**: BSL-1.1
 - **Focus**: Industry-defining declarative Infrastructure as Code engine.
 - **Capabilities**: Provisions and governs distributed infrastructure across 3,000+ cloud providers. Supports remote execution runners, distributed state locks, and plan/apply workflows that autonomous agent systems use to configure infrastructure.
@@ -109,7 +109,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 5. [OpenTofu](https://github.com/opentofu/opentofu) [![GitHub stars](https://img.shields.io/github/stars/opentofu/opentofu?style=social&color=white)](https://github.com/opentofu/opentofu/stargazers)
+### 5. [OpenTofu](https://github.com/opentofu/opentofu) [![GitHub_Stars](https://img.shields.io/github/stars/opentofu/opentofu?style=social&color=white)](https://github.com/opentofu/opentofu/stargazers)
 - **Repo**: `opentofu/opentofu` | **License**: MPL-2.0
 - **Focus**: The truly open-source, Linux Foundation-governed fork of Terraform.
 - **Capabilities**: Provides backward-compatible, declarative infrastructure management with remote state backends, parallel execution graphs, and plugin extensibility for agentic tool use.
@@ -117,7 +117,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 6. [Temporal](https://github.com/temporalio/temporal) [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
+### 6. [Temporal](https://github.com/temporalio/temporal) [![GitHub_Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
 - **Repo**: `temporalio/temporal` | **License**: MIT
 - **Focus**: Durable execution engine for fault-tolerant, long-running agent workflows.
 - **Capabilities**: Preserves complete execution state across network partitions, server restarts, and API timeouts. Enables AI agents to dispatch distributed, remote multi-step activities with automatic retries, compensation logic, and guaranteed execution semantics.
@@ -125,7 +125,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 7. [Dagger](https://github.com/dagger/dagger) [![GitHub stars](https://img.shields.io/github/stars/dagger/dagger?style=social&color=white)](https://github.com/dagger/dagger/stargazers)
+### 7. [Dagger](https://github.com/dagger/dagger) [![GitHub_Stars](https://img.shields.io/github/stars/dagger/dagger?style=social&color=white)](https://github.com/dagger/dagger/stargazers)
 - **Repo**: `dagger/dagger` | **License**: Apache-2.0
 - **Focus**: Programmable container engine for running isolated tool pipelines and build workflows.
 - **Capabilities**: Lets developers and AI agents define remote or local execution pipelines as code in Python, TypeScript, or Go. Uses BuildKit caching for rapid containerized command execution with complete isolation.
@@ -133,7 +133,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 8. [Salt (SaltStack)](https://github.com/saltstack/salt) [![GitHub stars](https://img.shields.io/github/stars/saltstack/salt?style=social&color=white)](https://github.com/saltstack/salt/stargazers)
+### 8. [Salt (SaltStack)](https://github.com/saltstack/salt) [![GitHub_Stars](https://img.shields.io/github/stars/saltstack/salt?style=social&color=white)](https://github.com/saltstack/salt/stargazers)
 - **Repo**: `saltstack/salt` | **License**: Apache-2.0
 - **Focus**: High-speed, event-driven remote execution engine and configuration manager.
 - **Capabilities**: Uses a ZeroMQ communication bus to broadcast commands simultaneously to thousands of remote minions in milliseconds, returning real-time command output.
@@ -141,7 +141,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 9. [AWX](https://github.com/ansible/awx) [![GitHub stars](https://img.shields.io/github/stars/ansible/awx?style=social&color=white)](https://github.com/ansible/awx/stargazers)
+### 9. [AWX](https://github.com/ansible/awx) [![GitHub_Stars](https://img.shields.io/github/stars/ansible/awx?style=social&color=white)](https://github.com/ansible/awx/stargazers)
 - **Repo**: `ansible/awx` | **License**: Apache-2.0
 - **Focus**: The open-source upstream project for Red Hat Ansible Automation Platform.
 - **Capabilities**: Provides a modern web UI, REST API, job queuing engine, credentials vault, and RBAC for triggering Ansible playbooks across remote nodes asynchronously.
@@ -149,7 +149,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 10. [Fabric](https://github.com/fabric/fabric) [![GitHub stars](https://img.shields.io/github/stars/fabric/fabric?style=social&color=white)](https://github.com/fabric/fabric/stargazers)
+### 10. [Fabric](https://github.com/fabric/fabric) [![GitHub_Stars](https://img.shields.io/github/stars/fabric/fabric?style=social&color=white)](https://github.com/fabric/fabric/stargazers)
 - **Repo**: `fabric/fabric` | **License**: BSD-2-Clause
 - **Focus**: High-level Python library designed to execute remote shell commands over SSH.
 - **Capabilities**: Wraps Paramiko with clean, idiomatic Python APIs for executing remote shell commands (`Connection.run()`), streaming output, transferring files via SFTP, and managing multi-host deployments.
@@ -157,7 +157,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 11. [E2B Sandboxes](https://github.com/e2b-dev/E2B) [![GitHub stars](https://img.shields.io/github/stars/e2b-dev/E2B?style=social&color=white)](https://github.com/e2b-dev/E2B/stargazers)
+### 11. [E2B Sandboxes](https://github.com/e2b-dev/E2B) [![GitHub_Stars](https://img.shields.io/github/stars/e2b-dev/E2B?style=social&color=white)](https://github.com/e2b-dev/E2B/stargazers)
 - **Repo**: `e2b-dev/E2B` | **License**: Apache-2.0
 - **Focus**: Secure cloud sandboxes specifically engineered for AI agents and code interpreters.
 - **Capabilities**: Spins up isolated Linux microVMs within ~150 milliseconds. Agents can execute arbitrary Python, JavaScript, and Bash code, browse the web, create files, and inspect outputs in isolated sandboxes.
@@ -165,7 +165,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 12. [Semaphore](https://github.com/semaphoreui/semaphore) [![GitHub stars](https://img.shields.io/github/stars/semaphoreui/semaphore?style=social&color=white)](https://github.com/semaphoreui/semaphore/stargazers)
+### 12. [Semaphore](https://github.com/semaphoreui/semaphore) [![GitHub_Stars](https://img.shields.io/github/stars/semaphoreui/semaphore?style=social&color=white)](https://github.com/semaphoreui/semaphore/stargazers)
 - **Repo**: `semaphoreui/semaphore` | **License**: MIT
 - **Focus**: Modern, lightweight open-source alternative to Ansible Tower / AWX.
 - **Capabilities**: Written in Go; orchestrates Ansible playbooks, Terraform/OpenTofu configurations, Bash scripts, and Pulumi code via a responsive UI and REST API with zero bloat.
@@ -173,7 +173,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 13. [SkyPilot](https://github.com/skypilot-org/skypilot) [![GitHub stars](https://img.shields.io/github/stars/skypilot-org/skypilot?style=social&color=white)](https://github.com/skypilot-org/skypilot/stargazers)
+### 13. [SkyPilot](https://github.com/skypilot-org/skypilot) [![GitHub_Stars](https://img.shields.io/github/stars/skypilot-org/skypilot?style=social&color=white)](https://github.com/skypilot-org/skypilot/stargazers)
 - **Repo**: `skypilot-org/skypilot` | **License**: Apache-2.0
 - **Focus**: Framework for running AI workloads and remote jobs seamlessly on any cloud or GPU provider.
 - **Capabilities**: Automatically finds the cheapest GPU/CPU compute across AWS, GCP, Azure, and Lambda Cloud, provisions resources, syncs code, and runs jobs remotely with automatic teardown.
@@ -181,7 +181,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 14. [Paramiko](https://github.com/paramiko/paramiko) [![GitHub stars](https://img.shields.io/github/stars/paramiko/paramiko?style=social&color=white)](https://github.com/paramiko/paramiko/stargazers)
+### 14. [Paramiko](https://github.com/paramiko/paramiko) [![GitHub_Stars](https://img.shields.io/github/stars/paramiko/paramiko?style=social&color=white)](https://github.com/paramiko/paramiko/stargazers)
 - **Repo**: `paramiko/paramiko` | **License**: LGPL-2.1
 - **Focus**: The foundational Python implementation of the SSHv2 protocol.
 - **Capabilities**: Low-level, battle-tested library providing direct cryptographic SSH client and server primitives, multiplexed channels, SFTP clients, and agent forwarding used by countless automation platforms.
@@ -189,7 +189,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 15. [Atlantis](https://github.com/runatlantis/atlantis) [![GitHub stars](https://img.shields.io/github/stars/runatlantis/atlantis?style=social&color=white)](https://github.com/runatlantis/atlantis/stargazers)
+### 15. [Atlantis](https://github.com/runatlantis/atlantis) [![GitHub_Stars](https://img.shields.io/github/stars/runatlantis/atlantis?style=social&color=white)](https://github.com/runatlantis/atlantis/stargazers)
 - **Repo**: `runatlantis/atlantis` | **License**: Apache-2.0
 - **Focus**: Pull request automation for Terraform and OpenTofu.
 - **Capabilities**: Executes `terraform plan` and `apply` directly from PR comment commands in GitHub, GitLab, or Bitbucket with fine-grained plan locking and output verification.
@@ -197,7 +197,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 16. [Bifrost](https://github.com/maximhq/bifrost) [![GitHub stars](https://img.shields.io/github/stars/maximhq/bifrost?style=social&color=white)](https://github.com/maximhq/bifrost/stargazers)
+### 16. [Bifrost](https://github.com/maximhq/bifrost) [![GitHub_Stars](https://img.shields.io/github/stars/maximhq/bifrost?style=social&color=white)](https://github.com/maximhq/bifrost/stargazers)
 - **Repo**: `maximhq/bifrost` | **License**: Apache-2.0
 - **Focus**: MCP-native gateway with remote execution capabilities across SSH and Docker targets.
 - **Capabilities**: Connects external tool servers via STDIO, HTTP, or SSE with OAuth 2.0 authentication. Agent Mode enables autonomous tool execution with auto-approval, while Code Mode lets AI write Python to orchestrate multiple tools in a sandbox (reducing token usage by 50%+). Supports remote targets via pair codes or SSH keys.
@@ -206,7 +206,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 17. [Puppet Core](https://github.com/puppetlabs/puppet) [![GitHub stars](https://img.shields.io/github/stars/puppetlabs/puppet?style=social&color=white)](https://github.com/puppetlabs/puppet/stargazers)
+### 17. [Puppet Core](https://github.com/puppetlabs/puppet) [![GitHub_Stars](https://img.shields.io/github/stars/puppetlabs/puppet?style=social&color=white)](https://github.com/puppetlabs/puppet/stargazers)
 - **Repo**: `puppetlabs/puppet` | **License**: Apache-2.0
 - **Focus**: Declarative configuration management and node enforcement.
 - **Capabilities**: Uses a declarative domain-specific language (DSL) to describe system state, enforcing configuration through target node agents and reporting compliance back to PuppetDB.
@@ -214,7 +214,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 18. [RunDeck Community](https://github.com/rundeck/rundeck) [![GitHub stars](https://img.shields.io/github/stars/rundeck/rundeck?style=social&color=white)](https://github.com/rundeck/rundeck/stargazers)
+### 18. [RunDeck Community](https://github.com/rundeck/rundeck) [![GitHub_Stars](https://img.shields.io/github/stars/rundeck/rundeck?style=social&color=white)](https://github.com/rundeck/rundeck/stargazers)
 - **Repo**: `rundeck/rundeck` | **License**: Apache-2.0
 - **Focus**: Open-source runbook automation engine and job scheduler.
 - **Capabilities**: Web console and CLI to turn existing operational scripts and tools into secure, auditable self-service automation jobs with node filtering and access control.
@@ -222,7 +222,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 19. [assh (Advanced SSH Config)](https://github.com/moul/assh) [![GitHub stars](https://img.shields.io/github/stars/moul/assh?style=social&color=white)](https://github.com/moul/assh/stargazers)
+### 19. [assh (Advanced SSH Config)](https://github.com/moul/assh) [![GitHub_Stars](https://img.shields.io/github/stars/moul/assh?style=social&color=white)](https://github.com/moul/assh/stargazers)
 - **Repo**: `moul/assh` | **License**: MIT
 - **Focus**: Advanced OpenSSH client config generator and connection gateway tool.
 - **Capabilities**: Transparently configures multi-hop SSH proxy chains, jump hosts, regex host matching, automatic gateway fallback, and connection multiplexing for command-line agents.
@@ -230,7 +230,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 20. [Terrakube](https://github.com/terrakube-io/terrakube) [![GitHub stars](https://img.shields.io/github/stars/terrakube-io/terrakube?style=social&color=white)](https://github.com/terrakube-io/terrakube/stargazers)
+### 20. [Terrakube](https://github.com/terrakube-io/terrakube) [![GitHub_Stars](https://img.shields.io/github/stars/terrakube-io/terrakube?style=social&color=white)](https://github.com/terrakube-io/terrakube/stargazers)
 - **Repo**: `terrakube-io/terrakube` | **License**: Apache-2.0
 - **Focus**: Open-source alternative to Terraform Cloud.
 - **Capabilities**: Features remote run execution, state management, workspace isolation, private registry, and native support for both Terraform and OpenTofu on self-hosted infrastructure.
@@ -238,7 +238,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 21. [rrun](https://github.com/buster/rrun) [![GitHub stars](https://img.shields.io/github/stars/buster/rrun?style=social&color=white)](https://github.com/buster/rrun/stargazers)
+### 21. [rrun](https://github.com/buster/rrun) [![GitHub_Stars](https://img.shields.io/github/stars/buster/rrun?style=social&color=white)](https://github.com/buster/rrun/stargazers)
 - **Repo**: `buster/rrun` | **License**: MIT
 - **Focus**: Stateless CLI and agent skill for safe remote script execution.
 - **Capabilities**: Dispatches one-off script executions to remote machines over SSH without exposing credentials or root passwords to the calling LLM coding agent.
@@ -246,7 +246,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 22. [kojo](https://github.com/loppo-llc/kojo) [![GitHub stars](https://img.shields.io/github/stars/loppo-llc/kojo?style=social&color=white)](https://github.com/loppo-llc/kojo)
+### 22. [kojo](https://github.com/loppo-llc/kojo) [![GitHub_Stars](https://img.shields.io/github/stars/loppo-llc/kojo?style=social&color=white)](https://github.com/loppo-llc/kojo)
 - **Repo**: `loppo-llc/kojo` | **License**: MIT
 - **Focus**: Mobile web bridge to remotely operate AI coding CLIs.
 - **Capabilities**: Single Go binary embedding a web UI; connects through tmux-backed sessions and Tailscale P2P WireGuard tunnels to allow developers to drive Claude Code or Codex remotely from phones or tablets.
@@ -254,7 +254,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 23. [OpenAgentFleet](https://github.com/robbyczgw-cla/openagentfleet) [![GitHub stars](https://img.shields.io/github/stars/robbyczgw-cla/openagentfleet?style=social&color=white)](https://github.com/robbyczgw-cla/openagentfleet/stargazers)
+### 23. [OpenAgentFleet](https://github.com/robbyczgw-cla/openagentfleet) [![GitHub_Stars](https://img.shields.io/github/stars/robbyczgw-cla/openagentfleet?style=social&color=white)](https://github.com/robbyczgw-cla/openagentfleet/stargazers)
 - **Repo**: `robbyczgw-cla/openagentfleet` | **License**: MIT
 - **Focus**: Self-hosted fleet manager for autonomous computer-use agents.
 - **Capabilities**: Provisions disposable containerized Linux desktop environments with browser-streaming output, enabling vision-based computer-use agents to run remotely and securely.
@@ -262,7 +262,7 @@ Explore the leading open-source repositories powering remote agent command execu
 
 ---
 
-### 24. [tramp](https://github.com/marcfargas/tramp) [![GitHub stars](https://img.shields.io/github/stars/marcfargas/tramp?style=social&color=white)](https://github.com/marcfargas/tramp/stargazers)
+### 24. [tramp](https://github.com/marcfargas/tramp) [![GitHub_Stars](https://img.shields.io/github/stars/marcfargas/tramp?style=social&color=white)](https://github.com/marcfargas/tramp/stargazers)
 - **Repo**: `marcfargas/tramp` | **License**: MIT
 - **Focus**: Transparent remote execution MCP server for AI coding agents.
 - **Capabilities**: *"The agent stays local. Tools execute remotely."* Mirrors Claude Code built-in tool signatures (`bash`, `read`, `write`, `edit`, `glob`, `grep`, `ls`) over multiplexed SSH channels or Docker containers.
@@ -317,7 +317,7 @@ Contributions are warmly welcomed! To add or update an entry:
 1. 🍴 **Fork** this repository.
 2. 📝 **Edit `README.md`** following the existing format:
    - For SaaS: Platform name, official URL, parent company valuation, specific starting tier price, exact free tier / trial terms, and key remote capabilities.
-   - For Open-Source: Repository name, link, star count badge, license, core focus, and ideal use case.
+   - For Open-Source: Repository name, link, Stars_Count badge, license, core focus, and ideal use case.
 3. 🔍 **Verify links** and keep descriptions factual, concise, and free from marketing fluff.
 4. 🚀 **Submit a Pull Request** with a brief summary of what was added or updated.
 
